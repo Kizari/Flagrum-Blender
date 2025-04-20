@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8DFF8531-9876-48F7-BAD3-EA56DDAACC9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flagrum.Blender", "src\Flagrum.Blender\Flagrum.Blender.csproj", "{6A693F59-9698-4B5D-BEC8-C41DC0FAF44F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{99C3636D-8382-47EC-8C86-D64C50169F46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flagrum", "Flagrum", "{4A0EEB03-65B0-4974-B847-F184B19C7E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flagrum.Core", "modules\Flagrum\Flagrum.Core\Flagrum.Core.csproj", "{21D41E6E-DE5A-450C-ABA1-3BFC77669568}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A693F59-9698-4B5D-BEC8-C41DC0FAF44F} = {8DFF8531-9876-48F7-BAD3-EA56DDAACC9A}
+		{4A0EEB03-65B0-4974-B847-F184B19C7E99} = {99C3636D-8382-47EC-8C86-D64C50169F46}
+		{21D41E6E-DE5A-450C-ABA1-3BFC77669568} = {4A0EEB03-65B0-4974-B847-F184B19C7E99}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A693F59-9698-4B5D-BEC8-C41DC0FAF44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A693F59-9698-4B5D-BEC8-C41DC0FAF44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A693F59-9698-4B5D-BEC8-C41DC0FAF44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A693F59-9698-4B5D-BEC8-C41DC0FAF44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D41E6E-DE5A-450C-ABA1-3BFC77669568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D41E6E-DE5A-450C-ABA1-3BFC77669568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D41E6E-DE5A-450C-ABA1-3BFC77669568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D41E6E-DE5A-450C-ABA1-3BFC77669568}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

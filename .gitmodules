@@ -1,0 +1,3 @@
+[submodule "modules/Flagrum"]
+	path = modules/Flagrum
+	url = https://github.com/Kizari/Flagrum
